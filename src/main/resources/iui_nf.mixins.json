@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.iui_nf.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "iui_nf.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinFontManager",
+    "MixinMinecraftClient"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
